@@ -270,6 +270,7 @@ function stopGame(){
 *
 */
 function startGame(){
+  startTimer();
   setDuration(10);
   showUp();
   return "game started";
