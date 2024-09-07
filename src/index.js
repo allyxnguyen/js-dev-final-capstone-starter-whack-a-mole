@@ -273,6 +273,7 @@ function startGame(){
   startTimer();
   setDuration(10);
   showUp();
+  function clearScore;
   return "game started";
 }
 
