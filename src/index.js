@@ -270,10 +270,10 @@ function stopGame(){
 *
 */
 function startGame(){
+  clearScore();
   startTimer();
   setDuration(10);
   showUp();
-  function clearScore();
   return "game started";
 }
 
